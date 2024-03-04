@@ -15,20 +15,9 @@
 - **MiniHUD 支持翻译**：为 MiniHUD 显示的文本添加本地化支持。对于 Fabric，更推荐使用 [Masa Gadget](https://modrinth.com/mod/masa-gadget/)。
 
 ### 画廊
-<div style="overflow-x:auto; white-space:nowrap;">
-  <div style="display:inline-block; text-align:center; margin-right:5px;">
-    <img alt="modifycolors" src="images/modifycolors.png">
-    <div style="color:#9D9588;">修改颜色</div>
-  </div>
-  <div style="display:inline-block; text-align:center; margin-right:5px;">
-    <img alt="ftbultiminesupport" src="images/ftbultiminesupport.gif">
-    <div style="color:#9D9588;">FTB Ultimine 支持</div>
-  </div>
-  <div style="display:inline-block; text-align:center; margin-right:5px;">
-    <img alt="minihudi18n" src="images/minihudi18n.png">
-    <div style="color:#9D9588;">MiniHUD 支持翻译</div>
-  </div>
-</div>
+| <img src="images/modifycolors.png" alt="modifycolors" width="300"> | <img src="images/ftbultiminesupport.gif" alt="ftbultiminesupport" width="300"> | <img src="images/minihudi18n.png" alt="minihudi18n" width="300"> |
+|:------------------------------------------------------------------:|:------------------------------------------------------------------------------:|:----------------------------------------------------------------:|
+|                                修改颜色                                |                                FTB Ultimine 支持                                 |                           MiniHUD 支持翻译                           |
 
 ### 编译
 - 克隆本仓库。
