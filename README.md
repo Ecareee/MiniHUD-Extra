@@ -11,8 +11,24 @@
 为 [MiniHUD](https://www.curseforge.com/minecraft/mc-mods/minihud)(Fabric) 或 [BoccHUD](https://modrinth.com/mod/bocchud)(Forge) 添加了一些功能。<br>
 在游戏中按下 Z + C 打开模组配置。
 - **修改颜色**：为 MiniHUD 的每一行文本都添加可配置的颜色，而不是整个 HUD 的文本都只能是一种颜色。
-- **[FTB Ultimine](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-fabric) 支持**：当 FTB Ultimine 激活时，自动禁用 MiniHUD，防止两个 HUD 的重叠。
+- **[FTB Ultimine](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-fabric) 支持**：当 FTB Ultimine 激活时，自动禁用 MiniHUD，防止两个 HUD 的重叠。如果你和我一样只习惯 HUD 在左上角的话。
 - **MiniHUD 支持翻译**：为 MiniHUD 显示的文本添加本地化支持。对于 Fabric，更推荐使用 [Masa Gadget](https://modrinth.com/mod/masa-gadget/)。
+
+### 画廊
+<div style="overflow-x:auto; white-space:nowrap;">
+  <div style="display:inline-block; text-align:center; margin-right:5px;">
+    <img alt="modifycolors" src="images/modifycolors.png">
+    <div style="color:#9D9588;">修改颜色</div>
+  </div>
+  <div style="display:inline-block; text-align:center; margin-right:5px;">
+    <img alt="ftbultiminesupport" src="images/ftbultiminesupport.gif">
+    <div style="color:#9D9588;">FTB Ultimine 支持</div>
+  </div>
+  <div style="display:inline-block; text-align:center; margin-right:5px;">
+    <img alt="minihudi18n" src="images/minihudi18n.png">
+    <div style="color:#9D9588;">MiniHUD 支持翻译</div>
+  </div>
+</div>
 
 ### 编译
 - 克隆本仓库。
