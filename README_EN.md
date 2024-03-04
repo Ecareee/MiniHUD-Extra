@@ -1,9 +1,11 @@
 [简体中文](./README.md)
 
 # MiniHUD Extra
-<img alt="forge" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy/supported/forge_vector.svg">
-<img alt="fabric" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy/supported/fabric_vector.svg">
-<img alt="architectury" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy/requires/architectury-api_vector.svg">
+<p>
+  <img alt="forge" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy/supported/forge_vector.svg">
+  <img alt="fabric" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy/supported/fabric_vector.svg">
+  <img alt="architectury" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy/requires/architectury-api_vector.svg">
+</p>
 
 ### Overview
 Add some features to [MiniHUD](https://www.curseforge.com/minecraft/mc-mods/minihud)(Fabric) or [BoccHUD](https://modrinth.com/mod/bocchud)(Forge).<br>
