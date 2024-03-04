@@ -15,7 +15,7 @@ Press Z + C in the game to open the config GUI.
 - **MiniHUD I18n**: Add i18n support for text displayed by MiniHUD. For Fabric, it's more recommended to use [Masa Gadget](https://modrinth.com/mod/masa-gadget/).
 
 ### Gallery
-| <img src="images/modifycolors.png" alt="modifycolors" width="300"> | <img src="images/ftbultiminesupport.gif" alt="ftbultiminesupport" width="300"> | <img src="images/minihudi18n.png" alt="minihudi18n" width="300"> |
+| <img src="images/modifycolors.png" alt="modifycolors" width="200"> | <img src="images/ftbultiminesupport.gif" alt="ftbultiminesupport" width="200"> | <img src="images/minihudi18n.png" alt="minihudi18n" width="200"> |
 |:------------------------------------------------------------------:|:------------------------------------------------------------------------------:|:----------------------------------------------------------------:|
 |                           Modify Colors                            |                              FTB Ultimine Support                              |                           MiniHUD I18n                           |
 
