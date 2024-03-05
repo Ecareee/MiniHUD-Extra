@@ -21,8 +21,8 @@ public class Configs implements IConfigHandler {
     private static final String CONFIG_FILE_NAME = MiniHUDExtra.MOD_ID + ".json";
     public static class Generic {
         public static final ConfigBoolean MODIFY_COLORS = new ConfigBoolean("modifyColors", true, "Whether or not applying the color changes");
-        public static final ConfigBoolean FTB_ULTIMINE_SUPPORT = new ConfigBoolean("ftbUltimineSupport", true, "Automatically disables MiniHUD when FTB Ultimine is active, preventing the overlap between the two HUDs");
-        public static final ConfigBoolean MINIHUD_I18N = new ConfigBoolean("minihudI18n", true, "Whether or not applying i18n support for text displayed by MiniHUD");
+        public static final ConfigBoolean FTB_ULTIMINE_SUPPORT = new ConfigBoolean("ftbUltimineSupport", true, "Automatically disables MiniHUD when FTB Ultimine is active, preventing the overlap between the two HUDs\nRequires FTB Ultimine to be loaded");
+        public static final ConfigBoolean MINIHUD_I18N = new ConfigBoolean("minihudI18n", true, "Whether or not applying i18n support for text displayed by MiniHUD\nForge only, for fabric, use Masa Gadget instead");
         public static final ConfigHotkey OPEN_CONFIG_GUI = new ConfigHotkey("openConfigGui", "Z,C", "A hotkey to open the in-game Config GUI");
         public static final ImmutableList<IConfigBase> OPTIONS = ImmutableList.of(MODIFY_COLORS, FTB_ULTIMINE_SUPPORT, MINIHUD_I18N, OPEN_CONFIG_GUI);
         public static final List<IHotkey> HOTKEY_LIST = ImmutableList.of(OPEN_CONFIG_GUI);

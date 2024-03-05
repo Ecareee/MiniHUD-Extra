@@ -7,9 +7,9 @@
   "modifyColors": "修改颜色",
   "Whether or not applying the color changes": "是否应用颜色的变化",
   "ftbUltimineSupport": "FTB Ultimine 支持",
-  "Automatically disables MiniHUD when FTB Ultimine is active, preventing the overlap between the two HUDs": "当 FTB Ultimine 激活时，自动禁用 MiniHUD，防止两个 HUD 的重叠",
+  "Automatically disables MiniHUD when FTB Ultimine is active, preventing the overlap between the two HUDs\nRequires FTB Ultimine to be loaded": "当 FTB Ultimine 激活时，自动禁用 MiniHUD，防止两个 HUD 的重叠\n需要 FTB Ultimine 被加载",
   "minihudI18n": "MiniHUD 支持翻译",
-  "Whether or not applying i18n support for text displayed by MiniHUD": "是否为 MiniHUD 显示的文本应用本地化支持",
+  "Whether or not applying i18n support for text displayed by MiniHUD\nForge only, for fabric, use Masa Gadget instead": "是否为 MiniHUD 显示的文本应用本地化支持\n仅限 Forge，Fabric 请使用 Masa Gadget",
   "openConfigGui": "打开配置界面",
   "A hotkey to open the in-game Config GUI": "打开游戏内配置界面的快捷键",
 
