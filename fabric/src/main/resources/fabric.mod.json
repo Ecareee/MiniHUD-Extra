@@ -30,7 +30,6 @@
     "fabric": "*",
     "minecraft": ">=${minecraft_version}",
     "architectury": ">=${architectury_version}",
-    "minihud": ">=0.22.1",
-    "ftbultimine": ">=1802.3.4-build.93"
+    "minihud": ">=0.22.1"
   }
 }

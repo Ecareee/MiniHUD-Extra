@@ -1,6 +1,7 @@
 package com.ecaree.minihudextra.network;
 
 import dev.architectury.networking.NetworkManager;
+import dev.architectury.platform.Platform;
 import dev.ftb.mods.ftbultimine.FTBUltimine;
 import dev.ftb.mods.ftbultimine.net.FTBUltimineNet;
 import fi.dy.masa.minihud.config.Configs;
@@ -10,6 +11,7 @@ public class UltimineMiniHUDHandler {
     private static boolean wasEnabledInitially = false;
 
     public static void interactionEvents() {
+        if (!Platform.isModLoaded("ftbultimine")) return;
         NetworkManager.registerReceiver(NetworkManager.Side.C2S, FTBUltimineNet.KEY_PRESSED.getId(), (buffer, context) -> {
             boolean pressed = buffer.readBoolean();
             ServerPlayerEntity player = (ServerPlayerEntity) context.getPlayer();

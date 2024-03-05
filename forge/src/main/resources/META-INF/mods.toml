@@ -38,10 +38,3 @@ mandatory=true
 versionRange="[0.1.4-mc1.18.2,)"
 ordering="NONE"
 side="BOTH"
-
-[[dependencies.${mod_id}]]
-modId="ftbultimine"
-mandatory=true
-versionRange="[1802.3.4-build.93,)"
-ordering="NONE"
-side="BOTH"
