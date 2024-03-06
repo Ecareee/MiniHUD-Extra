@@ -10,11 +10,11 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     modApi "dev.architectury:architectury:${architectury_version}"
 
-    modApi 'curse.maven:ftb-library-438495:4396791'
-    modApi 'curse.maven:ftb-ultimine-448231:4781901'
-    modApi 'curse.maven:malilib-303119:3692220'
-    modApi 'curse.maven:minihud-244260:3909308'
-    modApi 'curse.maven:mod-menu-308702:4145213'
+    modApi 'curse.maven:ftb-library-438495:5051952' // fabric-2001.1.5
+    modApi 'curse.maven:ftb-ultimine-448231:5005004' // fabric-2001.1.4
+    modApi 'curse.maven:malilib-303119:4780782' // fabric-1.20.1-0.16.3
+    modApi 'curse.maven:minihud-244260:4593082' // fabric-1.20.1-0.27.0
+    modApi 'maven.modrinth:modmenu:7.2.2'
 }
 
 publishing {

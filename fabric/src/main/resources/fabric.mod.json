@@ -30,6 +30,6 @@
     "fabric": "*",
     "minecraft": ">=${minecraft_version}",
     "architectury": ">=${architectury_version}",
-    "minihud": ">=0.22.1"
+    "minihud": ">=0.27.0"
   }
 }

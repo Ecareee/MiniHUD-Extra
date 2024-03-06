@@ -36,10 +36,10 @@ dependencies {
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 
-    modApi 'curse.maven:bocchud-916504:5068977'
-    modApi 'curse.maven:ftb-library-404465:4396792'
-    modApi 'curse.maven:ftb-ultimine-386134:4781902'
-    modApi 'curse.maven:mafglib-910766:5052007'
+    modApi 'curse.maven:bocchud-916504:5068969' // 0.1.2-mc1.20.1
+    modApi 'curse.maven:ftb-library-404465:5051953' // forge-2001.1.5
+    modApi 'curse.maven:ftb-ultimine-386134:5005006' // forge-2001.1.4
+    modApi 'curse.maven:mafglib-910766:5068815' // 0.1.8-mc1.20.1
 }
 
 processResources {
