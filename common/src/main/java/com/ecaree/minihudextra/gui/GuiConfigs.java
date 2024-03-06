@@ -13,9 +13,11 @@ import java.util.List;
 
 public class GuiConfigs extends GuiConfigsBase {
     public static ConfigGuiTab tab = ConfigGuiTab.COLORS;
+
     public GuiConfigs() {
         super(10, 50, MiniHUDExtra.MOD_ID, null, "minihudextra.gui.title.configs");
     }
+
     @Override
     public void initGui() {
         super.initGui();
@@ -43,6 +45,7 @@ public class GuiConfigs extends GuiConfigsBase {
             this.getListWidget().refreshEntries();
         }
     }
+
     private int createButton(int x, int y, int width, ConfigGuiTab tab) {
         ButtonGeneric button = new ButtonGeneric(x, y, width, 20, tab.getDisplayName());
         button.setEnabled(GuiConfigs.tab != tab);
@@ -60,6 +63,7 @@ public class GuiConfigs extends GuiConfigsBase {
         }
         return Collections.emptyList();
     }
+
     private static class ButtonListenerConfigTabs implements IButtonActionListener {
         private final GuiConfigs parent;
         private final ConfigGuiTab tab;
@@ -77,6 +81,7 @@ public class GuiConfigs extends GuiConfigsBase {
             this.parent.initGui();
         }
     }
+
     public enum ConfigGuiTab {
         GENERIC("minihudextra.gui.button.config_gui.generic"),
         COLORS("minihudextra.gui.button.config_gui.colors");
