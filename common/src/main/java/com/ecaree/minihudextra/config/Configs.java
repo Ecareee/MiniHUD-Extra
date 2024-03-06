@@ -59,10 +59,33 @@ public class Configs implements IConfigHandler {
         public static final ConfigColor LINE_TWENTYEIGHT = new ConfigColor("lineTwentyEight", "#FFE0E0E0", "Color for line 28");
         public static final ConfigColor LINE_TWENTYNINE = new ConfigColor("lineTwentyNine", "#FFE0E0E0", "Color for line 29");
         public static final ConfigColor LINE_THIRTY = new ConfigColor("lineThirty", "#FFE0E0E0", "Color for line 30");
+        public static final ConfigColor LINE_THIRTYONE = new ConfigColor("lineThirtyOne", "#FFE0E0E0", "Color for line 31");
+        public static final ConfigColor LINE_THIRTYTWO = new ConfigColor("lineThirtyTwo", "#FFE0E0E0", "Color for line 32");
+        public static final ConfigColor LINE_THIRTYTHREE = new ConfigColor("lineThirtyThree", "#FFE0E0E0", "Color for line 33");
+        public static final ConfigColor LINE_THIRTYFOUR = new ConfigColor("lineThirtyFour", "#FFE0E0E0", "Color for line 34");
+        public static final ConfigColor LINE_THIRTYFIVE = new ConfigColor("lineThirtyFive", "#FFE0E0E0", "Color for line 35");
+        public static final ConfigColor LINE_THIRTYSIX = new ConfigColor("lineThirtySix", "#FFE0E0E0", "Color for line 36");
+        public static final ConfigColor LINE_THIRTYSEVEN = new ConfigColor("lineThirtySeven", "#FFE0E0E0", "Color for line 37");
+        public static final ConfigColor LINE_THIRTYEIGHT = new ConfigColor("lineThirtyEight", "#FFE0E0E0", "Color for line 38");
+        public static final ConfigColor LINE_THIRTYNINE = new ConfigColor("lineThirtyNine", "#FFE0E0E0", "Color for line 39");
+        public static final ConfigColor LINE_FORTY = new ConfigColor("lineForty", "#FFE0E0E0", "Color for line 40");
+        public static final ConfigColor LINE_FORTYONE = new ConfigColor("lineFortyOne", "#FFE0E0E0", "Color for line 41");
+        public static final ConfigColor LINE_FORTYTWO = new ConfigColor("lineFortyTwo", "#FFE0E0E0", "Color for line 42");
+        public static final ConfigColor LINE_FORTYTHREE = new ConfigColor("lineFortyThree", "#FFE0E0E0", "Color for line 43");
+        public static final ConfigColor LINE_FORTYFOUR = new ConfigColor("lineFortyFour", "#FFE0E0E0", "Color for line 44");
+        public static final ConfigColor LINE_FORTYFIVE = new ConfigColor("lineFortyFive", "#FFE0E0E0", "Color for line 45");
+        public static final ConfigColor LINE_FORTYSIX = new ConfigColor("lineFortySix", "#FFE0E0E0", "Color for line 46");
+        public static final ConfigColor LINE_FORTYSEVEN = new ConfigColor("lineFortySeven", "#FFE0E0E0", "Color for line 47");
+        public static final ConfigColor LINE_FORTYEIGHT = new ConfigColor("lineFortyEight", "#FFE0E0E0", "Color for line 48");
+        public static final ConfigColor LINE_FORTYNINE = new ConfigColor("lineFortyNine", "#FFE0E0E0", "Color for line 49");
+        public static final ConfigColor LINE_FIFTY = new ConfigColor("lineFifty", "#FFE0E0E0", "Color for line 50");
+
         public static List<IConfigBase> OPTIONS = ImmutableList.of(
                 LINE_ONE, LINE_TWO, LINE_THREE, LINE_FOUR, LINE_FIVE, LINE_SIX, LINE_SEVEN, LINE_EIGHT, LINE_NINE, LINE_TEN,
                 LINE_ELEVEN, LINE_TWELVE, LINE_THIRTEEN, LINE_FOURTEEN, LINE_FIFTEEN, LINE_SIXTEEN, LINE_SEVENTEEN, LINE_EIGHTEEN, LINE_NINETEEN, LINE_TWENTY,
-                LINE_TWENTYONE, LINE_TWENTYTWO, LINE_TWENTYTHREE, LINE_TWENTYFOUR, LINE_TWENTYFIVE, LINE_TWENTYSIX, LINE_TWENTYSEVEN, LINE_TWENTYEIGHT, LINE_TWENTYNINE, LINE_THIRTY
+                LINE_TWENTYONE, LINE_TWENTYTWO, LINE_TWENTYTHREE, LINE_TWENTYFOUR, LINE_TWENTYFIVE, LINE_TWENTYSIX, LINE_TWENTYSEVEN, LINE_TWENTYEIGHT, LINE_TWENTYNINE, LINE_THIRTY,
+                LINE_THIRTYONE, LINE_THIRTYTWO, LINE_THIRTYTHREE, LINE_THIRTYFOUR, LINE_THIRTYFIVE, LINE_THIRTYSIX, LINE_THIRTYSEVEN, LINE_THIRTYEIGHT, LINE_THIRTYNINE, LINE_FORTY,
+                LINE_FORTYONE, LINE_FORTYTWO, LINE_FORTYTHREE, LINE_FORTYFOUR, LINE_FORTYFIVE, LINE_FORTYSIX, LINE_FORTYSEVEN, LINE_FORTYEIGHT, LINE_FORTYNINE, LINE_FIFTY
         );
     }
     public static void loadFromFile() {

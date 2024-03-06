@@ -82,7 +82,18 @@ public class MixinRenderUtils {
                 Configs.Colors.LINE_TWENTYSEVEN.getIntegerValue(),
                 Configs.Colors.LINE_TWENTYEIGHT.getIntegerValue(),
                 Configs.Colors.LINE_TWENTYNINE.getIntegerValue(),
-                Configs.Colors.LINE_THIRTY.getIntegerValue()
+                Configs.Colors.LINE_THIRTY.getIntegerValue(),
+                Configs.Colors.LINE_FORTY.getIntegerValue(),
+                Configs.Colors.LINE_FORTYONE.getIntegerValue(),
+                Configs.Colors.LINE_FORTYTWO.getIntegerValue(),
+                Configs.Colors.LINE_FORTYTHREE.getIntegerValue(),
+                Configs.Colors.LINE_FORTYFOUR.getIntegerValue(),
+                Configs.Colors.LINE_FORTYFIVE.getIntegerValue(),
+                Configs.Colors.LINE_FORTYSIX.getIntegerValue(),
+                Configs.Colors.LINE_FORTYSEVEN.getIntegerValue(),
+                Configs.Colors.LINE_FORTYEIGHT.getIntegerValue(),
+                Configs.Colors.LINE_FORTYNINE.getIntegerValue(),
+                Configs.Colors.LINE_FIFTY.getIntegerValue()
         };
 
         for (int i = 0; i < lines.size(); i++) {
