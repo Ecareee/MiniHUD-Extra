@@ -8,12 +8,12 @@
     "${mod_authors}"
   ],
   "contact": {
-    "homepage": "",
-    "sources": "${mod_repo}"
+    "sources": "${mod_repo}",
+    "issues": "${mod_repo}/issues"
   },
   "license": "${mod_license}",
   "icon": "icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "com.ecaree.minihudextra.fabric.MiniHUDExtraFabric"

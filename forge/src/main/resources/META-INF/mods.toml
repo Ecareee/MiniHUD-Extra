@@ -1,5 +1,6 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
+issueTrackerURL="${mod_repo}/issues"
 license="${mod_license}"
 
 [[mods]]
