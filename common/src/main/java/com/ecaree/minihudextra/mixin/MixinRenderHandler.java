@@ -29,7 +29,7 @@ public class MixinRenderHandler {
             )
     )
     private String onStringFormat(String format, Object[] args) {
-        if (Configs.Generic.MINIHUD_I18N.getBooleanValue()) {
+        if (Configs.Generic.MINIHUD_I18N.getBooleanValue() && I18n.hasTranslation(format)) {
             if (isCustomCoordinateFormat(format)) {
                 String customCoordinateFormat = fi.dy.masa.minihud.config.Configs.Generic.COORDINATE_FORMAT_STRING.getStringValue();
                 return String.format(customCoordinateFormat, args);
