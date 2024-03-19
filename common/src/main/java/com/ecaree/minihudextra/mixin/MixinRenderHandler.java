@@ -1,7 +1,6 @@
 package com.ecaree.minihudextra.mixin;
 
 import com.ecaree.minihudextra.config.Configs;
-import dev.architectury.injectables.annotations.PlatformOnly;
 import fi.dy.masa.minihud.event.RenderHandler;
 import net.minecraft.client.resource.language.I18n;
 import org.spongepowered.asm.mixin.Mixin;
@@ -20,7 +19,6 @@ public class MixinRenderHandler {
     private static final Pattern ARGS_PATTERN = Pattern.compile("%\\.\\d+f");
     private static final Pattern LOCALIZATION_PATTERN = Pattern.compile("([\\w ]+): ");
 
-    @PlatformOnly(PlatformOnly.FORGE)
     @Redirect(
             method = "addLine(Lfi/dy/masa/minihud/config/InfoToggle;)V",
             at = @At(
@@ -43,7 +41,6 @@ public class MixinRenderHandler {
         }
     }
 
-    @PlatformOnly(PlatformOnly.FORGE)
     @ModifyVariable(
             method = "addLine(Ljava/lang/String;)V",
             at = @At(

@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "minihudextra.mixins.json",
+    "minihudextra.fabric.mixins.json",
     "minihudextra-common.mixins.json"
   ],
   "depends": {

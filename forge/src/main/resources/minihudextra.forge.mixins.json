@@ -1,9 +1,10 @@
 {
   "required": true,
-  "package": "com.ecaree.minihudextra.mixin.fabric",
+  "package": "com.ecaree.minihudextra.mixin",
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
   "client": [
+    "MixinRenderHandler"
   ],
   "mixins": [
   ],

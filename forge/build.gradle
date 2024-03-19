@@ -17,7 +17,7 @@ loom {
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
         mixinConfig "minihudextra-common.mixins.json"
-        mixinConfig "minihudextra.mixins.json"
+        mixinConfig "minihudextra.forge.mixins.json"
     }
 }
 
