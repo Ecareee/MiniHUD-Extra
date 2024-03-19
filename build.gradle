@@ -14,9 +14,16 @@ subprojects {
         silentMojangMappingsLicense()
     }
 
-    dependencies {
-        minecraft "com.mojang:minecraft:${minecraft_version}"
-        mappings "net.fabricmc:yarn:${yarn_mappings}:v2"
+    if (name == "neoforge") {
+        dependencies {
+            minecraft "com.mojang:minecraft:${neoforge_minecraft_version}"
+            mappings "net.fabricmc:yarn:${neoforge_yarn_mappings}:v2"
+        }
+    } else {
+        dependencies {
+            minecraft "com.mojang:minecraft:${minecraft_version}"
+            mappings "net.fabricmc:yarn:${yarn_mappings}:v2"
+        }
     }
 }
 
@@ -34,6 +41,8 @@ allprojects {
     repositories {
         maven { url = "https://www.cursemaven.com" }
         maven { url = "https://api.modrinth.com/maven" }
+        maven { url = "https://maven.neoforged.net/releases/" }
+        maven { url = "https://www.jitpack.io" }
     }
 
     tasks.withType(JavaCompile) {

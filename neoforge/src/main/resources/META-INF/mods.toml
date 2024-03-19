@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="${forge_loader_version_range}"
+loaderVersion="${neoforge_loader_version_range}"
 issueTrackerURL="${mod_repo}/issues"
 license="${mod_license}"
 
@@ -12,30 +12,36 @@ authors="${mod_authors}"
 description='''${mod_description}'''
 logoFile="icon.png"
 
+[[mixins]]
+config = "minihudextra-common.mixins.json"
+
+[[mixins]]
+config = "minihudextra.neoforge.mixins.json"
+
 [[dependencies.${mod_id}]]
-modId="forge"
-mandatory=true
-versionRange="${forge_version_range}"
+modId="neoforge"
+type="required"
+versionRange="${neoforge_version_range}"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
 modId="minecraft"
-mandatory=true
-versionRange="[1.20,)"
+type="required"
+versionRange="[1.20.3,)"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
 modId="architectury"
-mandatory=true
-versionRange="[${architectury_version},)"
+type="required"
+versionRange="[${neoforge_architectury_version},)"
 ordering="AFTER"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
 modId="bocchud"
-mandatory=true
-versionRange="[0.1.2-mc1.20.1,)"
+type="required"
+versionRange="[0.1.0-mc1.20.4,)"
 ordering="NONE"
 side="BOTH"

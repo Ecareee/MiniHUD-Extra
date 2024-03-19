@@ -4,21 +4,13 @@ plugins {
 
 architectury {
     platformSetupLoomIde()
-    forge()
+    neoForge()
 }
 
-version = "${mod_version}-mc${minecraft_version}-forge"
+version = "${mod_version}-mc${minecraft_version}-neoforge"
 
 loom {
     accessWidenerPath = project(":common").loom.accessWidenerPath
-
-    forge {
-        convertAccessWideners = true
-        extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
-
-        mixinConfig "minihudextra-common.mixins.json"
-        mixinConfig "minihudextra.forge.mixins.json"
-    }
 }
 
 configurations {
@@ -26,27 +18,28 @@ configurations {
     shadowCommon // Don't use shadow from the shadow plugin since it *excludes* files.
     compileClasspath.extendsFrom common
     runtimeClasspath.extendsFrom common
-    developmentForge.extendsFrom common
+    developmentNeoForge.extendsFrom common
 }
 
 dependencies {
-    forge "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    modApi "dev.architectury:architectury-forge:${architectury_version}"
+    neoForge "net.neoforged:neoforge:${neoforge_version}"
+    modApi "dev.architectury:architectury-neoforge:${neoforge_architectury_version}"
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
-    shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
+    shadowCommon(project(path: ":common", configuration: "transformProductionNeoForge")) { transitive = false }
 
-    modApi 'curse.maven:bocchud-916504:5068969' // 0.1.2-mc1.20.1
+    modApi 'curse.maven:bocchud-916504:5122675' // 0.1.0-mc1.20.4
     modApi 'curse.maven:ftb-library-404465:5051953' // forge-2001.1.5
     modApi 'curse.maven:ftb-ultimine-386134:5005006' // forge-2001.1.4
-    modApi 'curse.maven:mafglib-910766:5068815' // 0.1.8-mc1.20.1
+    modApi 'maven.modrinth:mafglib:0.1.4-mc1.20.4' // 0.1.4-mc1.20.4
+    modApi 'com.github.ThinkingStudios:ForgedNetworkingAPI:0.1.0-mc1.20.4'
 }
 
 processResources {
     var replaceProperties = [
-            architectury_version: architectury_version,
-            forge_version: forge_version, forge_version_range: forge_version_range,
-            forge_loader_version_range: forge_loader_version_range,
+            neoforge_architectury_version: neoforge_architectury_version,
+            neoforge_version: neoforge_version, neoforge_version_range: neoforge_version_range,
+            neoforge_loader_version_range: neoforge_loader_version_range,
             mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
             mod_authors: mod_authors, mod_description: mod_description, mod_repo: mod_repo
     ]
