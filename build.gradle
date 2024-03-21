@@ -29,6 +29,7 @@ allprojects {
         archivesName = archives_base_name
     }
 
+    version = "${mod_version}-mc${minecraft_version}-${name}"
     group = mod_group
 
     repositories {

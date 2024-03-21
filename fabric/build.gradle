@@ -7,8 +7,6 @@ architectury {
     fabric()
 }
 
-version = "${mod_version}-mc${minecraft_version}-fabric"
-
 loom {
     accessWidenerPath = project(":common").loom.accessWidenerPath
 }
@@ -29,16 +27,16 @@ dependencies {
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
 
-    modApi 'curse.maven:ftb-library-438495:4396791'
-    modApi 'curse.maven:ftb-ultimine-448231:4781901'
-    modApi 'curse.maven:malilib-303119:3692220'
-    modApi 'curse.maven:minihud-244260:3909308'
-    modApi 'curse.maven:mod-menu-308702:4145213'
+    modApi 'curse.maven:ftb-library-438495:4396791' // fabric-1802.3.11-build.177
+    modApi 'curse.maven:ftb-ultimine-448231:4781901' // fabric-1802.3.4-build.93
+    modApi 'curse.maven:malilib-303119:3692220' // fabric-1.18.2-0.12.1
+    modApi 'curse.maven:minihud-244260:3909308' // fabric-1.18.2-0.22.1
+    modApi 'curse.maven:mod-menu-308702:4145213' // v3.2.5 for 1.18.2
 }
 
 processResources {
     var replaceProperties = [
-            minecraft_version: minecraft_version, architectury_version: architectury_version,
+            architectury_version: architectury_version,
             mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
             mod_authors: mod_authors, mod_description: mod_description, mod_repo: mod_repo
     ]

@@ -7,8 +7,6 @@ architectury {
     forge()
 }
 
-version = "${mod_version}-mc${minecraft_version}-forge"
-
 loom {
     accessWidenerPath = project(":common").loom.accessWidenerPath
 
@@ -36,15 +34,15 @@ dependencies {
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 
-    modApi 'curse.maven:bocchud-916504:5068977'
-    modApi 'curse.maven:ftb-library-404465:4396792'
-    modApi 'curse.maven:ftb-ultimine-386134:4781902'
-    modApi 'curse.maven:mafglib-910766:5052007'
+    modApi 'curse.maven:bocchud-916504:5068977' // 0.1.4-mc1.18.2
+    modApi 'curse.maven:ftb-library-404465:4396792' // forge-1802.3.11-build.177
+    modApi 'curse.maven:ftb-ultimine-386134:4781902' // forge-1802.3.4-build.93
+    modApi 'curse.maven:mafglib-910766:5052007' // 0.1.9-mc1.18.2
 }
 
 processResources {
     var replaceProperties = [
-            minecraft_version: minecraft_version, architectury_version: architectury_version,
+            architectury_version: architectury_version,
             forge_version: forge_version, forge_version_range: forge_version_range,
             loader_version_range: loader_version_range,
             mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
