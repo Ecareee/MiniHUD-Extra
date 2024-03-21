@@ -29,13 +29,13 @@ side="BOTH"
 [[dependencies.${mod_id}]]
 modId="architectury"
 mandatory=true
-versionRange="[${architectury_version},)"
+versionRange="[${architectury_dependency},)"
 ordering="AFTER"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
 modId="bocchud"
 mandatory=true
-versionRange="[0.1.4-mc1.18.2,)"
+versionRange="[${bocchud_dependency},)"
 ordering="NONE"
 side="BOTH"
