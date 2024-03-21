@@ -36,6 +36,7 @@ allprojects {
         archivesName = archives_base_name
     }
 
+    version = "${mod_version}-mc1.20.4-${name}"
     group = mod_group
 
     repositories {
