@@ -35,11 +35,11 @@ dependencies {
 
 processResources {
     var replaceProperties = [
-            neoforge_architectury_version: neoforge_architectury_version,
             neoforge_version: neoforge_version, neoforge_version_range: neoforge_version_range,
             neoforge_loader_version_range: neoforge_loader_version_range,
             mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
-            mod_authors: mod_authors, mod_description: mod_description, mod_repo: mod_repo
+            mod_authors: mod_authors, mod_description: mod_description, mod_repo: mod_repo,
+            neoforge_architectury_dependency: neoforge_architectury_dependency, bocchud_dependency: bocchud_dependency
     ]
     inputs.properties replaceProperties
 

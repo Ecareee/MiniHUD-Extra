@@ -42,11 +42,11 @@ dependencies {
 
 processResources {
     var replaceProperties = [
-            architectury_version: architectury_version,
             forge_version: forge_version, forge_version_range: forge_version_range,
             forge_loader_version_range: forge_loader_version_range,
             mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
-            mod_authors: mod_authors, mod_description: mod_description, mod_repo: mod_repo
+            mod_authors: mod_authors, mod_description: mod_description, mod_repo: mod_repo,
+            architectury_dependency: architectury_dependency, bocchud_dependency: bocchud_dependency
     ]
     inputs.properties replaceProperties
 
