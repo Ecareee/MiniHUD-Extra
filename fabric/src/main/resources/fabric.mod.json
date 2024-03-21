@@ -28,8 +28,8 @@
   ],
   "depends": {
     "fabric": "*",
-    "minecraft": ">=${minecraft_version}",
+    "minecraft": "1.18.x",
     "architectury": ">=${architectury_version}",
-    "minihud": ">=0.22.1"
+    "minihud": ">=0.21.2"
   }
 }
