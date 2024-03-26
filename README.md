@@ -23,4 +23,4 @@
 - 克隆本仓库。
 - 打开命令行并定位到仓库目录。
 - 运行 `gradlew build` 来编译模组。
-- 编译好的模组生成在 `forge/build/libs` 和 `fabric/build/libs`。
+- 编译好的模组生成在 `forge/build/libs`、`fabric/build/libs` 和 `neoforge/build/libs`。

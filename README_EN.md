@@ -23,4 +23,4 @@ Press Z + C in the game to open the config GUI.
 - Clone the repository.
 - Open a command prompt/terminal to the repository directory.
 - Run `gradlew build` to build the mod.
-- The built jar file will be in `forge/build/libs` and `fabric/build/libs`.
+- The built jar file will be in `forge/build/libs`, `fabric/build/libs` and `neoforge/build/libs`.
